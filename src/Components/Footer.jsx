@@ -64,8 +64,8 @@ const Footer = () => {
           duration: 0.5,
           scrollTrigger: {
             trigger: el,
-            start: `${index * 1}% bottom-=100`,
-            end: `${(index + 10) * 10}% 60%`,
+            start: `${index * 1}% bottom-=150`,
+            end: `${(index + 10) * 10}% 75%`,
             scrub: 2,
           },
         }
@@ -81,8 +81,8 @@ const Footer = () => {
           duration: 0.5,
           scrollTrigger: {
             trigger: el,
-            start: `${index * 1}% bottom-=0`,
-            end: `${(index + 1) * 10}% 60%`,
+            start: `${index * 1}% bottom-=10`,
+            end: `${(index + 1) * 10}% 90%`,
             scrub: 2,
           },
         }
@@ -99,7 +99,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-[#17191f] text-white px-16 py-12 ">
+    <div className="bg-[#17191f] text-white px-16 py-12 " id="jsbhjvchgsjbcsdgh">
       <div>
         <h3 className="text-4xl font-bold cnsjdvhsvsndb">FAQ</h3>
         {QuestionAns.map((item) => (
@@ -122,12 +122,12 @@ const Footer = () => {
           </div>
         ))}
       </div>
-      <div className="flex">
+      <div className="flex vdbhvhsnkdvndskjdffb">
         <span className="w-3/4  cnsjdvhsvsndb">
           <section className="mt-12 mb-16">
             <h3 className="text-5xl my-8 font-semibold">Let's Talk</h3>
             <a
-              href="mailto:example@gmail.com?subject=Hello&body=How are you?"
+              href="mailto:futurewebcare@gmail.com?subject=Hello&body=How are you?"
               className="border-b-[1px] border-gray-400 pb-1 text-3xl"
             >
               futurewebcare@gmail.com
@@ -136,7 +136,7 @@ const Footer = () => {
           <h3 className="text-lg font-thin mb-2">New York City,USA</h3>
           <h3 className="text-lg font-thin">Football Chowk, Ambala Cantt</h3>
         </span>
-        <span className="flex flex-col w-1/4 justify-center items-start mt-12  cnsjdvhsvsndb">
+        <span className="flex flex-col w-1/4 justify-center items-start mt-12  cnsjdvhsvsndb cbjhshdvdcghsvh">
           {NavLinks.map((item) => (
             <Link
               to={item.linkAddress}
@@ -148,7 +148,7 @@ const Footer = () => {
           ))}
         </span>
       </div>
-      <div className="flex items-center justify-between mt-6 pr-[20%]">
+      <div className="flex items-center justify-between mt-6 pr-[20%] vhjdvhvcbvdbcbh">
         <span className=" flex gap-8 font-thin vdhjbsbdvbsvbj">
           <h4>
             <a href="">Privacy</a>
@@ -158,7 +158,7 @@ const Footer = () => {
           </h4>
         </span>
         <span className="text-lg font-extralight vdhjbsbdvbsvbj">@FutureWebCare</span>
-        <span className="flex gap-6 ">
+        <span className="flex gap-6 bnvbjzchdsvh">
           {SocialLinks.map((item) => (
             <a href={item.Link} key={item.key} className="text-2xl vdhjbsbdvbsvbj">
               <item.SocialLogo />

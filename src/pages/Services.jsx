@@ -122,9 +122,10 @@ const Services = () => {
           duration: 0.5,
           scrollTrigger: {
             trigger: el,
-            start: `${index * 1}% bottom-=100`,
-            end: `${(index + 10) * 10}% 25%`,
+            start: `${index * 1}% bottom-=50`,
+            end: `${(index + 10) * 10}% 40%`,
             scrub: 2,
+            // markers:true
           },
         }
       );
@@ -150,29 +151,29 @@ const Services = () => {
 
   return (
     <div className=" scroll-smooth" id="SerDiv">
-      <h2 className="text-6xl font-bold pt-24 ml-40">
+      <h2 className="text-6xl font-bold pt-24 ml-[10%]">
         A full-service digital
         <br /> innovation partner
       </h2>
-      <p className="ml-40 mt-8 mb-[10rem] text-4xl">
+      <p className="ml-[10%] mt-8 mb-[10%] text-4xl">
         Our rich design and technology expertise
         <br /> delivers top brands and digital experiences.
       </p>
-      <div className="w-full flex justify-center items-center flex-col">
+      <div className="w-full flex justify-center items-center flex-col -z-50">
         {SerWeGive.map((item, index) => (
-          <span key={index} className={item.Cl}>
+          <span key={index} className={`${item.Cl} cjkdksjbvjhdshvbhjbh`}>
             <span className="w-[100%] chjdvdbvbdbdh">
-              <h2 className="text-3xl mt-6">{item.Title}</h2>
-              <p className="text-xl my-4">{item.Description}</p>
+              <h3 className="text-3xl mt-6">{item.Title}</h3>
+              <span className="text-xl my-4">{item.Description}</span>
               {Object.values(item["Key Features"]).map((feature, i) => (
-                <h2 key={i} className="pl-8 pt-2 text-xl flex">
-                  <div className="bg-slate-700 h-[1px ] w-8 my-[.80rem] mr-1"></div>
+                <h6 key={i} className="pl-8 pt-2 text-xl jbjcjcncjcjdcjdccj flex">
+                  <div className="bg-slate-700 h-[1px ] w-8 my-[.80rem] mr-1 cgshgcsdghghc"></div>
                   {feature.Feature}
-                </h2>
+                </h6>
               ))}
             </span>
-            <span className="bg-gray-600 w-[70%] dvhdjvdbvdjvkd pt-2 pl-2 pb-1 mr-8">
-              <img src={item.img} className="w-[100%] " id="" />
+            <span className="bg-gray-600 w-[70%] dvhdjvdbvdjvkd pt-2 pl-2 pb-1 mr-8 -z-50">
+              <img src={item.img} className="w-[100%] -z-50" id="" />
             </span>
           </span>
         ))}

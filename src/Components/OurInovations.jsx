@@ -3,7 +3,6 @@ import { HiArrowLongRight } from "react-icons/hi2";
 import { FaArrowRight } from "react-icons/fa";
 import DepthVid from "../assets/Videos/DepthVid.mp4";
 import Vid from "../assets/Videos/Vid.mp4";
-import Banner from "../assets/Images/Banner.png";
 
 import a1 from "../assets/Imgs/1a.jpg";
 import b1 from "../assets/Imgs/1b.jpg";
@@ -32,15 +31,15 @@ const OurInovations = () => {
   const scrollRef = useRef(null);
 
   const ChangeImgToVid = () => {
-    const ImgTarget = document.getElementById("VideoOverImg");
+    // const ImgTarget = document.getElementById("VideoOverImg");
     const VidTarget = document.getElementById("VideoOverVid");
-    ImgTarget.style.opacity = "0";
+    // ImgTarget.style.opacity = "0";
     VidTarget.play();
   };
   const ChangeVidToImg = () => {
-    const ImgTarget = document.getElementById("VideoOverImg");
+    // const ImgTarget = document.getElementById("VideoOverImg");
     const VidTarget = document.getElementById("VideoOverVid");
-    ImgTarget.style.opacity = "1";
+    // ImgTarget.style.opacity = "1";
     VidTarget.pause();
     VidTarget.currentTime = 0;
   };
@@ -69,7 +68,7 @@ const OurInovations = () => {
   ];
 
   return (
-    <div className="flex gap-8 px-[5%] py-16 flex-col">
+    <div className="flex gap-8 px-[5%] py-16 flex-col" id="jdbvhdvjkjancdhd">
       <span className="mx-[7.5%] MouseOverSpan translate-x-[-10%] opacity-0">
         <span
           className="relative duration-200"
@@ -77,13 +76,13 @@ const OurInovations = () => {
           onMouseOver={ChangeImgToVid}
           onMouseOut={ChangeVidToImg}
         >
-          <img
+          {/* <img
             src={Banner}
             className="duration-200 absolute "
             id="VideoOverImg"
-          />
+          /> */}
           <video
-            autoPlay
+            // autoPlay
             muted
             loop
             src={DepthVid}
@@ -104,7 +103,7 @@ const OurInovations = () => {
         </span>
       </span>
 
-      <span className="flex py-16">
+      <span className="flex py-16 cbsjvfsdjvdbvns">
         <span className="w-[47.2%] flex flex-col items-start  justify-center text-left opacity-10 translate-x-[-75%] chbshjchvshdh">
           <h3 className="text-4xl font-extrabold">
             We transform companies <br /> through design innovation

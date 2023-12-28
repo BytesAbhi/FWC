@@ -1,28 +1,26 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital@1&display=swap"); */
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:wght@300&family=Playfair+Display:ital@1&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-}
-body{
-  background-color: #f0f8ff;
-}
-body::-webkit-scrollbar {
-  display: none;
+#root {
+  margin: 0 auto;
+  max-width: 1440px;
 }
 * {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
-#root {
-  margin: 0 auto;
-  max-width: 1440px;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f0f8ff;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 #BurCross {
@@ -49,30 +47,819 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.vdvvhhdbnvnvbh {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 3rem;
+}
+.nfjjhdbvhvgh {
+  display: flex;
+  gap: 0.5rem;
+}
+.nfjjhdbvhvgh a {
+  display: flex;
+  gap: 0.5rem;
+}
+.nfjjhdbvhvgh a img {
+  height: 2.5rem;
+}
+.nfjjhdbvhvgh a h1 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.25rem;
+}
+.nfjjhdbvhvgh a h1 span {
+  font-size: 0.75rem;
+  margin-top: -0.5rem;
+}
+
+/* @media screen and (min-width: 769px) {
+} */
 @media screen and (max-width: 769px) {
   body {
     width: 100vw;
   }
+  /* ----------------------------------- */
+  /* Nav Bar Responsive Code Starts Here */
+  /* ----------------------------------- */
+  /* ----------------------------------- */
   #BurCross {
     display: grid;
   }
+  .vdvvhhdbnvnvbh {
+    width: 100%;
+    position: relative;
+    padding: 0.25rem 2rem;
+  }
+  .nfjjhdbvhvgh a img {
+    height: 30px;
+  }
+  .nfjjhdbvhvgh a {
+    gap: 0.1rem;
+  }
+  .nfjjhdbvhvgh a h1 {
+    margin-top: -2px;
+    font-size: 0.9rem;
+  }
+  .nfjjhdbvhvgh a h1 span {
+    margin-top: -8px;
+    font-size: 0.65rem;
+  }
+
   #nav-span {
     position: absolute;
-    background-color: #04001e;
     height: 100vh;
     width: 100%;
-    top: 0;
-    right: -100%;
-    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateX(-100%);
+    background-color: #04001e;
     flex-direction: column;
   }
-  
+
   #nav-span > a {
     color: #f0f8ff;
     margin: 0.75rem 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   #OurSerJsx {
     font-size: 1rem;
+  }
+
+  /* ---------------------------------- */
+  /* Nav Bar Responsive Code Ends Here */
+  /* Nav Bar Responsive Code ActionBAr */
+  /* -------------------------------- */
+
+  #mainDiv {
+    padding: 2rem 2.5rem;
+    width: 100%;
+  }
+  #mainDiv h2 {
+    margin: 2rem 0 0 0rem;
+    font-size: 2.25rem;
+  }
+  #mainDiv h3 {
+    margin: 1rem 0 2rem 0rem;
+    font-size: 2rem;
+  }
+  #mainDiv span {
+    padding: 4rem 0 6rem 0;
+  }
+
+  #mainDiv video {
+    z-index: -1;
+    width: 85%;
+  }
+  /* Nav Bar Responsive Code ActionBar End*/
+  /* Nav Bar Responsive Code OurSer start*/
+
+  #ServDiv {
+    justify-content: space-evenly;
+    gap: 20%;
+  }
+  
+  #ServDivP{
+    width: 30%;
+    height: auto;
+    margin: 0;
+    font-weight: 300;
+    line-height: 1.25rem;
+    font-size: 1rem;
+  }
+  .csd54543csdcd{
+    width: 30%;
+    height: 100%;
+  }
+  
+  #ServDivMSpan{
+    line-height: 0.1rem;
+    width: 100%;
+    padding: 0rem;
+    padding: 0 0;
+
+  }
+  #ServDivMSpan h4{
+    width: auto;
+    font-size: 1rem;
+  }
+
+  /* Nav Bar Responsive Code OurSer End*/
+  /* Nav Bar Responsive Code SubModel start*/
+  #vdjbvhjdvbjnbvhdb {
+    flex-wrap: wrap;
+  }
+  #vdjbvhjdvbjnbvhdb span {
+    padding: 0 0 0 1rem;
+    width: 100%;
+  }
+  #vdjbvhjdvbjnbvhdb span h2 {
+    width: 70%;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  #vdjbvhjdvbjnbvhdb span p {
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+    width: 60%;
+    font-size: 1rem;
+  }
+  #vdjbvhjdvbjnbvhdb div {
+    flex-wrap: wrap;
+  }
+  #vdjbvhjdvbjnbvhdb div div {
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+  #vdjbvhjdvbjnbvhdb div div img {
+    margin-bottom: -2rem;
+    width: 90%;
+  }
+  #vdjbvhjdvbjnbvhdb div div span p {
+    width: 90%;
+  }
+  /* Nav Bar Responsive Code SubModel ends*/
+  /* Nav Bar Responsive Code SerWeGive start*/
+  #akaoqsuduwnj {
+    gap: 5%;
+  }
+  #akaoqsuduwnj span p {
+    margin: 0 0%;
+    width: 90%;
+    font-weight: 600;
+    line-height: 1.25rem;
+    font-size: 1rem;
+  }
+  #akaoqsuduwnj div img {
+    width: 90%;
+  }
+  #akaoqsuduwnj div h4 {
+    margin: 0.5rem 0.5rem;
+    font-size: 1rem;
+    width: 90%;
+  }
+  #akaoqsuduwnj div p {
+    margin: 0rem 0.5rem;
+    font-size: 0.8rem;
+    width: 80%;
+  }
+  /* Nav Bar Responsive Code SerWeGive End*/
+  /* Nav Bar Responsive Code OurInnovation Start*/
+  #jdbvhdvjkjancdhd {
+    padding: 2rem 2.5%;
+  }
+  .MouseOverSpan h3 {
+    font-size: 1.25rem;
+    margin: 5px 0 -10px 0%;
+  }
+  .MouseOverSpan p {
+    font-size: 0.8rem;
+  }
+  .MouseOverSpan span p {
+    display: flex;
+    gap: 0.25rem;
+    font-size: 0.6rem;
+    padding: 0 0.5%;
+  }
+  .MouseOverSpan span p span {
+    margin: 0 0%;
+    padding: 0 0%;
+  }
+
+  .cbsjvfsdjvdbvns {
+    padding: 1rem 0;
+  }
+  .cbsjvfsdjvdbvns span {
+    padding: 1rem 0;
+  }
+  .cbsjvfsdjvdbvns span h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .cbsjvfsdjvdbvns span p {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .cbsjvfsdjvdbvns span button {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .cshvchsghvchvghvav {
+    padding: 1rem 0;
+  }
+  #ImagesScrollAutomatic .h-96 {
+    height: 12rem;
+  }
+  #ImagesScrollAutomatic .h-80 {
+    height: 10rem;
+  }
+  .chjhdchbncdb p {
+    width: 50%;
+    margin: 0.75rem 0;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+  }
+  .chjhdchbncdb button {
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+  }
+  .chjhdchbncdb button .text-3xl {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  /* Nav Bar Responsive Code OurInnovation End*/
+  /* Nav Bar Responsive Code Work start*/
+  .fsvcgasgscdtedtdsdcghs {
+    padding: 1rem;
+    gap: 2.5%;
+  }
+  .xhsvhcvhj54564vs6d {
+    line-height: 3rem;
+    margin-left: 2.5%;
+    font-size: 2.5rem;
+  }
+  .cjskacdhsbhvbjhfbdbvhd {
+    margin: 1rem 0;
+  }
+  .ksjhgrrgsvcsvcbjxbcchjd,
+  .vbdshvgghafhfcvh {
+    width: 16rem;
+  }
+  /* Nav Bar Responsive Code Work End*/
+  /* Nav Bar Responsive Code Service Start*/
+
+  #SerDiv h2 {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+  #SerDiv p {
+    line-height: 1.55rem;
+    font-size: 1.25rem;
+  }
+  .chjdvdbvbdbdh h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .chjdvdbvbdbdh span {
+    line-height: 1.15rem;
+    font-size: 1rem;
+  }
+  .jbjcjcncjcjdcjdccj {
+    padding: 0 0 0 1rem;
+    font-size: 0.8rem;
+  }
+  .cgshgcsdghghc {
+    height: 2px;
+    width: 1rem;
+  }
+
+  /* Nav Bar Responsive Code Service End*/
+  /* Nav Bar Responsive Code About Us start*/
+#jsjcacskjvnjbdsb445sdv h3{
+ font-size: 2rem;
+ margin-left: 5%; 
+}
+
+
+
+  /* Nav Bar Responsive Code About Us End*/
+
+  .cbnbvcbndvvdfvbnvdbsv{
+    padding: 0 ;
+  }
+
+  .vdbbcvsdjcvdsvcvssdvcgvhdsvszk{
+    width: 100vw;
+    flex-direction: column;
+  }
+  .vdbbcvsdjcvdsvcvssdvcgvhdsvszk span {
+    width: 100%;
+  }
+  .vdbbcvsdjcvdsvcvssdvcgvhdsvszk span section h3{
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+  }
+  .vdbbcvsdjcvdsvcvssdvcgvhdsvszk span section p{
+    margin: 0.5rem 0;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .vdbbcvsdjcvdsvcvssdvcgvhdsvszk span section h6{
+    padding: 0 0 0.5rem 0;
+    font-size: 1rem;
+  }
+  .vdbbcvsdjcvdsvcvssdvcgvhdsvszk span section a{
+    width: 100%;
+    font-size: 1.15rem;
+  }
+  .jvhbsjhcvdshchsdhsas{
+    margin: 1rem 0 ;
+    height: auto;
+  }
+  .hvcdhvhshd{
+    margin: 0.5rem 0;
+  }
+  .vbshjjhcsvdghvgc{
+
+    line-height: 2.5rem;
+    flex-direction: column-reverse;
+    margin-top: 0rem;
+  }
+  /*=========================================*/
+  /* ---------------About Code--------------*/
+  #jsjcacskjvnjbdsb445sdv h3{
+    width: 100%;
+    overflow: hidden;
+    width: auto;
+    font-size: 1.5rem;
+    margin: 4rem 0 4rem 0.6rem;
+  }
+  .cs545646as{
+    margin: 0;
+    width: auto;
+    font-size: 1rem;
+  }
+  .djbvbkdbskbh{
+    font-size: 1rem;
+    margin: -7.5% 0 0 2.5%;
+  }
+  .cbhjshjchvsgac56dsv{
+    margin: 2rem 0 4rem 0;
+  }
+  #cjsbkabcbhdvdvbdj{
+    width: 80%;
+    font-weight: 400;
+    margin: 0rem 2.5%;
+    line-height: 1.15rem;
+  }
+  #jsjcacskjvnjbdsb445sdv h4{
+    margin: 1.5rem 2.5% 1rem 2.5%;
+    font-size: 1rem;
+  }
+  .cvhjdsvhchhdvchs54vsd{
+    gap: 2.5%;
+  }
+  .cvhjdsvhchhdvchs54vsd span{
+    width: 60%;
+    
+  }
+  .cvhjdsvhchhdvchs54vsd img{
+    margin: 2.5% 5%;
+    width: 25%;
+  }
+  .cvhjdsvhchhdvchs54vsd span span{
+    font-size: 2rem;
+    
+  }
+  .cvhjdsvhchhdvchs54vsd span h5{
+    font-weight: 700;
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    
+  }
+  .cvhjdsvhchhdvchs54vsd span p{
+
+    font-weight: 300;
+    width: 90%;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    
+  }
+  
+  /*=======================================*/
+  
+  /* Nav Bar Responsive Code Footer Start*/
+
+  #jsbhjvchgsjbcsdgh {
+    padding: 2rem 1rem;
+  }
+  #jsbhjvchgsjbcsdgh div div span h6 {
+    font-size: 1rem;
+  }
+  #jsbhjvchgsjbcsdgh div div span button {
+    font-size: 1rem;
+    height: 1rem;
+    width: 1rem;
+  }
+  #jsbhjvchgsjbcsdgh div div p {
+    font-weight: 200;
+    font-size: 0.7rem;
+  }
+  .cnsjdvhsvsndb section h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  .cnsjdvhsvsndb section a {
+    font-size: 1.25rem;
+  }
+
+  .cnsjdvhsvsndb h3 {
+    margin-bottom: -0.25rem;
+    font-size: 0.9rem;
+  }
+  .vhjdvhvcbvdbcbh {
+    width: 90%;
+    padding: 0 1rem;
+  }
+  .vhjdvhvcbvdbcbh span {
+    font-size: 0.8rem;
+  }
+
+  .bnvbjzchdsvh {
+    margin-right: 1rem;
+  }
+  .bnvbjzchdsvh a {
+    font-size: 1.25rem;
+  }
+  /* Nav Bar Responsive Code Footer Ends*/
+}
+
+@media screen and (max-width: 426px) {
+
+  
+  #mainDiv {
+    padding: 2rem 2.5rem;
+    width: 100%;
+  }
+  #mainDiv h2 {
+    margin: 2rem 0 0 0rem;
+    font-size: 1.25rem;
+  }
+  #mainDiv h3 {
+    margin: 1rem 0 1rem 0rem;
+    font-size: 1rem;
+  }
+  #mainDiv span {
+    padding: 4rem 0 2rem 0;
+  }
+
+  #mainDiv video {
+    margin: 0 0;
+    z-index: -1;
+    width: 100%;
+  }
+  /* Nav Bar Responsive Code ActionBar End*/
+  /* Nav Bar Responsive Code OurSer start*/
+  #ServDiv {
+    justify-content: space-evenly;
+    gap: 20%;
+  }
+  
+  #ServDivP{
+    width: 30%;
+    height: auto;
+    margin: 0;
+    font-weight: 300;
+    line-height: 0.85rem;
+    font-size: 0.75rem;
+  }
+  .csd54543csdcd{
+    width: 30%;
+    height: 100%;
+  }
+  
+  #ServDivMSpan{
+    height: 1.25rem;
+    line-height: 0.1rem;
+    width: 100%;
+    padding: 0rem;
+    padding: 0 0;
+
+  }
+  #ServDivMSpan h4{
+    width: auto;
+    font-size: 0.75rem;
+  }
+
+  /* Nav Bar Responsive Code OurSer End*/
+  /* Nav Bar Responsive Code SubModel start*/
+  #vdjbvhjdvbjnbvhdb {
+    flex-wrap: wrap;
+  }
+  #vdjbvhjdvbjnbvhdb span {
+    padding: 0 0 0 1rem;
+    width: 100%;
+  }
+  #vdjbvhjdvbjnbvhdb span h2 {
+    width: 90%;
+    line-height: 1.15rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  #vdjbvhjdvbjnbvhdb span p {
+    margin-top: 0.5rem;
+    line-height: 0.85rem;
+    width: 80%;
+    font-size: 0.75rem;
+  }
+  #vdjbvhjdvbjnbvhdb div {
+    flex-wrap: wrap;
+  }
+  #vdjbvhjdvbjnbvhdb div div {
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+  #vdjbvhjdvbjnbvhdb div div img {
+    margin-bottom: -2rem;
+    width: 90%;
+  }
+  #vdjbvhjdvbjnbvhdb div div span p {
+    width: 90%;
+  }
+  /* Nav Bar Responsive Code SubModel ends*/
+  /* Nav Bar Responsive Code SerWeGive start*/
+  #akaoqsuduwnj {
+    gap: 5%;
+  }
+  #akaoqsuduwnj span p {
+    margin: 0 0%;
+    width: 90%;
+    font-weight: 500;
+    line-height: 0.85rem;
+    font-size: 0.75rem;
+  }
+  #akaoqsuduwnj div img {
+    width: 90%;
+  }
+  #akaoqsuduwnj div h4 {
+    margin: 0rem 0.5rem;
+    font-size: 0.75rem;
+    width: 90%;
+  }
+  #akaoqsuduwnj div p {
+    font-weight: 300;
+    line-height: 0.85rem;
+    margin: 0rem 0.5rem;
+    font-size: 0.65rem;
+    width: 80%;
+  }
+  /* Nav Bar Responsive Code SerWeGive End*/
+  /* Nav Bar Responsive Code OurInnovation Start*/
+  #jdbvhdvjkjancdhd {
+    padding: 2rem 2.5%;
+  }
+  .MouseOverSpan h3 {
+    font-size: 1.25rem;
+    margin: 5px 0 -10px 0%;
+  }
+  .MouseOverSpan p {
+    font-size: 0.8rem;
+  }
+  .MouseOverSpan span p {
+    display: flex;
+    gap: 0.25rem;
+    font-size: 0.6rem;
+    padding: 0 0.5%;
+  }
+  .MouseOverSpan span p span {
+    margin: 0 0%;
+    padding: 0 0%;
+  }
+
+  .cbsjvfsdjvdbvns {
+    padding: 1rem 0;
+  }
+  .cbsjvfsdjvdbvns span {
+    padding: 1rem 0;
+  }
+  .cbsjvfsdjvdbvns span h3 {
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.15rem;
+  }
+  .cbsjvfsdjvdbvns span p {
+    margin: 0.5rem 0;
+    font-size: 0.65rem;
+    line-height: 0.85rem;
+  }
+  .cbsjvfsdjvdbvns span button {
+    margin: 0.5rem 0;
+    font-size: 0.65rem;
+    line-height: 0.85rem;
+  }
+  .cshvchsghvchvghvav {
+    padding: 1rem 0;
+  }
+  #ImagesScrollAutomatic .h-96 {
+    height: 8rem;
+  }
+  #ImagesScrollAutomatic .h-80 {
+    height: 6rem;
+  }
+  .chjhdchbncdb p {
+    width: 70%;
+    margin: 0.75rem 0;
+    font-size: 0.65rem;
+    line-height: 0.85rem;
+  }
+  .chjhdchbncdb button {
+    margin-top: 0.25rem;
+    font-size: 0.65rem;
+    line-height: 0.85rem;
+  }
+  .chjhdchbncdb button .text-3xl {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+
+  .xhsvhcvhj54564vs6d {
+    line-height: 1.75rem;
+    margin-left: 7.5%;
+    font-size: 1.5rem;
+  }
+
+  /* Nav Bar Responsive Code Service Start*/
+
+  #SerDiv h2 {
+    line-height: 1.75rem;
+    font-size: 1.5rem;
+  }
+  #SerDiv p {
+    line-height: 1.25rem;
+    font-size: 0.9rem;
+  }
+  .cjkdksjbvjhdshvbhjbh {
+    width: 100%;
+    padding: 0 1.5rem;
+    flex-direction: column;
+  }
+  .chjdvdbvbdbdh h3 {
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  .chjdvdbvbdbdh span {
+    /* width: 90%; */
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+  }
+  .jbjcjcncjcjdcjdccj {
+    margin: 0 1rem;
+    padding: 0 0 0 0.5rem;
+    font-size: 0.75rem;
+  }
+  .cgshgcsdghghc {
+    height: 1px;
+    width: 0.5rem;
+  }
+
+    /*=========================================*/
+  /* ---------------About Code--------------*/
+  #jsjcacskjvnjbdsb445sdv h3{
+    width: 100%;
+    overflow: hidden;
+    width: auto;
+    font-size: 1.5rem;
+    margin: 4rem 0 4rem 0.6rem;
+  }
+  .cs545646as{
+    margin: 0;
+    width: auto;
+    font-size: 1rem;
+  }
+  .djbvbkdbskbh{
+    font-size: 1rem;
+    margin: -10% 2.5%;
+  }
+  .cbhjshjchvsgac56dsv{
+    margin: 5rem 0 4rem 0;
+  }
+  #cjsbkabcbhdvdvbdj{
+    font-weight: 400;
+    margin: 5rem 2.5%;
+    line-height: 1.15rem;
+  }
+  #jsjcacskjvnjbdsb445sdv h4{
+    margin: 3.5rem 2.5% 0.5rem 2.5%;
+    font-size: 1rem;
+  }
+  .cvhjdsvhchhdvchs54vsd{
+    flex-direction: column;  
+  }
+  .cvhjdsvhchhdvchs54vsd span{
+    width: 90%;
+    
+  }
+  .cvhjdsvhchhdvchs54vsd img{
+    margin: 2.5% 5%;
+    width: 90%;
+  }
+  .cvhjdsvhchhdvchs54vsd span span{
+    font-size: 2rem;
+    
+  }
+  .cvhjdsvhchhdvchs54vsd span h5{
+    margin: 0.6rem 0;
+    font-size: 1.25rem;
+    
+  }
+  .cvhjdsvhchhdvchs54vsd span p{
+    width: auto;
+    line-height: 1.15rem;
+    font-size: 1rem;
+    
+  }
+
+  /* Nav Bar Responsive Code Footer Start*/
+
+  #jsbhjvchgsjbcsdgh {
+    padding: 2rem 1rem;
+  }
+  #jsbhjvchgsjbcsdgh div div span h6 {
+    line-height: 1rem;
+    font-size: 0.75rem;
+  }
+  #jsbhjvchgsjbcsdgh div div span button {
+    font-size: 0.75rem;
+    height: 1rem;
+    width: 1rem;
+  }
+  #jsbhjvchgsjbcsdgh div div p {
+    font-weight: 200;
+    width: 90%;
+    font-size: 0.7rem;
+  }
+  .cnsjdvhsvsndb section h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  .cnsjdvhsvsndb section a {
+    font-size: 1.25rem;
+  }
+  .vdbhvhsnkdvndskjdffb {
+    flex-direction: column;
+  }
+
+  .cnsjdvhsvsndb h3 {
+    margin-bottom: -0.25rem;
+    font-size: 0.9rem;
+  }
+  .vhjdvhvcbvdbcbh {
+    line-height: 3.5rem;
+    flex-direction: column-reverse;
+    width: 90%;
+    padding: 0 1rem;
+  }
+  .vhjdvhvcbvdbcbh span {
+    font-size: 0.8rem;
+  }
+
+  .bnvbjzchdsvh {
+    margin-bottom: 1rem;
+    /* margin-right: 1rem; */
+  }
+  .bnvbjzchdsvh a {
+    font-size: 1.25rem;
   }
 }

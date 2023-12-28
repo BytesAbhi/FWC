@@ -135,18 +135,18 @@ const About = () => {
   }, []);
 
   return (
-    <div className="w-full ">
+    <div className="w-full -z-[99]" id="jsjcacskjvnjbdsb445sdv">
       <h3 className="text-5xl mt-24 mb-40 ml-[15%] font-bold w-full">
         We transform brands through
         <br /> elevated digital experiences
       </h3>
-      <img src={Abt} className="w-3/4 mx-[12.5%] hdbvjhdvjdbbd " />
-      <h3 className="mx-[12.5%] text-7xl font-semibold mt-24 mb-2">
+      <img src={Abt} className="w-3/4 mx-[12.5%] hdbvjhdvjdbbd -z-[99]" />
+      <h3 className="mx-[12.5%] text-7xl font-semibold mt-24 mb-2 cs545646as">
         New York City
       </h3>
-      <p className="mx-[12.5%] text-2xl ">Headquarters</p>
+      <p className="mx-[12.5%] text-2xl djbvbkdbskbh">Headquarters</p>
       <div
-        className="flex overflow-scroll gap-12 w-auto items-center mt-20 opacity-0"
+        className="flex overflow-scroll gap-12 w-auto items-center mt-20 opacity-0 cbhjshjchvsgac56dsv"
         id="ImagesScrollAutomatic"
         ref={scrollRef}
       >
@@ -154,25 +154,24 @@ const About = () => {
           <img src={Item.Img} className={Item.cl} key={Item.key} />
         ))}
       </div>
-      <p className="text-2xl my-24 ml-[12.5%] font-medium djbvbkdbskbh translate-x-[35%] opacity-0">
+      <p className="text-2xl my-24 ml-[12.5%] font-medium djbvbkdbskbh translate-x-[35%] opacity-0" id="cjsbkabcbhdvdvbdj">
         We're a global group of strategists, designers, and <br />
         engineers building notable brands and premier <br />
         digital experiences that captivate users worldwide.
-        <br />
         <br />
         <br />
         Our unified, AI-infused creative approach ensures <br />
         scalability and consistency across all brand <br />
         touchpoints by building robust design systems.
       </p>
-      <h3 className="text-4xl font-semibold mt-40 mb-20 ml-[12.5%]">
+      <h4 className="text-4xl font-semibold mt-40 mb-20 ml-[12.5%]">
         Why choose Future Web Care
-      </h3>
+      </h4>
       {reasons.map((item) => (
-        <div key={item.key} className={item.cl}>
+        <div key={item.key} className={`${item.cl} cvhjdsvhchhdvchs54vsd`}>
           <span className="w-1/2 ml-[5%]">
             <span className="text-5xl font-extrabold text-gray-400">{`0${item.key}`}</span>
-            <h3 className="text-4xl my-8 font-medium">{item.point}</h3>
+            <h5 className="text-4xl my-8 font-medium">{item.point}</h5>
             <p className="text-xl w-[80%]">{item.description}</p>
           </span>
           <img src={item.img} className="w-1/4" />

@@ -40,7 +40,7 @@ const OurSubs = () => {
   ];
 
   return (
-    <div className="flex gap-12 justify-center pb-14 flex-col">
+    <div className="flex gap-12 justify-center pb-14 flex-col" id="vdjbvhjdvbjnbvhdb">
       <span className="w-[40%] pl-12">
         <h2 className="text-4xl font-bold">
           Discover Our Different Subscription Models
